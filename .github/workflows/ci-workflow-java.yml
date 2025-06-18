@@ -16,6 +16,6 @@ jobs:
   ci-workflow-java:
     uses: Agnaldo-Cavaleiro/workflow-reutilizable-demo/.github/workflows/java-reutilizable-ci.yml@main
     with:
-      artifact-name: 'Package'
+      artifact-name: 'Package-tokiota'
       java-version:  '17'
       distribution : 'corretto'
