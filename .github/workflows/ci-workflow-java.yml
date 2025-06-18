@@ -18,4 +18,4 @@ jobs:
     with:
       artifact-name: 'Package'
       java-version:  '14'
-      distribution : 'temurin'
+      distribution : 'openjdk'
