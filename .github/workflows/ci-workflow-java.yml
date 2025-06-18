@@ -13,7 +13,7 @@ permissions:
   security-events: write
   
 jobs:
-  test:
+  ci-workflow-java:
     uses: Agnaldo-Cavaleiro/workflow-reutilizable-demo/.github/workflows/java-reutilizable-ci.yml@main
     with:
       artifact-name: 'Package'
