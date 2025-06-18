@@ -17,5 +17,5 @@ jobs:
     uses: Agnaldo-Cavaleiro/workflow-reutilizable-demo/.github/workflows/java-reutilizable-ci.yml@main
     with:
       artifact-name: 'Package'
-      java-version:  '14'
-      distribution : 'openjdk'
+      java-version:  '17'
+      distribution : 'corretto'
